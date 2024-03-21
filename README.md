@@ -46,10 +46,10 @@ The [USB Rubber Ducky](https://hakshop.com/products/usb-rubber-ducky-deluxe) by 
 The ESP8266 is a popular Wi-Fi chip used in a lot of projects. Because it's cheap, small and has its own file system ([SPIFFS](http://esp8266.github.io/Arduino/versions/2.0.0/doc/filesystem.html)), it's perfect for enabling an easy remote connection and holding Ducky Script payloads.
 
 Although the ESP8266 is awesome, it doesn't have native USB, which means it can't act as a keyboard :(  
-([cnlohr](https://github.com/cnlohr) made a cool project on this and added a USB stack himself: https://github.com/cnlohr/espusb. The problem with that is, that it isn't compatible with the current SDK version, also I wanted to use Arduino to make it more user friendly.)  
+([Binanjay Dwibedee]((https://github.com/BinanjayDwibedee/wifi-rubber-ducky.git) made a cool project on this and added a USB stack himself: https://github.com/BinanjayDwibedee/wifi-rubber-ducky.git. The problem with that is, that it isn't compatible with the current SDK version, also I wanted to use Arduino to make it more user friendly.)  
 
 Here comes the ATmega32u4 into play!  
-It can act as keyboard and thanks to [Seytonic](http://youtube.com/seytonic) run Ducky Script ([link](https://github.com/Seytonic/Duckduino-microSD)).  
+It can act as keyboard and thanks to  run Ducky Script ([link](https://github.com/BinanjayDwibedee/wifi-rubber-ducky.git)).  
 So what I did is connecting the ATmega to the ESP8266 via serial.
 
 The ESP will open up a Wi-Fi access point and host a web interface from what you can upload and manage your scripts.  
@@ -198,9 +198,8 @@ The USB Rubber Ducky: https://hakshop.com/products/usb-rubber-ducky-deluxe
 
 The Malduino (a BadUSB-Arduino/Rubber-Ducky-alternative by Seytonic): https://www.indiegogo.com/projects/malduino-badusb-arduino-usb#/
 
-Seytonic: http://youtube.com/seytonic
-          https://github.com/seytonic
+
 
 Arduino Ducky Script interpreter: https://github.com/Seytonic/Duckduino-microSD
 
-Cnlohrs ESP8266 USB Software Driver: https://github.com/cnlohr/espusb
+Cnlohrs ESP8266 USB Software Driver: https://github.com/BinanjayDwibedee/wifi-rubber-ducky.git
